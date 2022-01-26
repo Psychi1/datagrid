@@ -80,3 +80,5 @@ $this->thumb_path = 'thumbs';              // optional, leave blank if you don't
 $this->date_out = 'd.m.Y';
 $this->datetime_out = 'd.m.Y, H:i';
 
+// i18n numeric format for de-de
+$this->restricted_numeric_input = '/[^0-9\,\-]/';  // optional, regular expression of what numbers are allowed to be sent to the database. helpful to remove euro signs and spaces. some countries use decimal points instead of commas.
